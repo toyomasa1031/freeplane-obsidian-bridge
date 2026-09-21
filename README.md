@@ -1,4 +1,4 @@
-![Workflow](images/workflow.png)
+![Workflow](workflow.png)
 # Freeplane → Obsidian Bridge
 
 Freeplaneで整理したマインドマップを、Obsidian Tasksで管理できるMarkdownへ変換するPythonツールです。
