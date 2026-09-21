@@ -62,7 +62,7 @@ TEXT = Python変換ツールを作成する
 ## 使い方
 
 1. Pythonを起動
-2. `freeplane_to_obsidian.py` を実行
+2. `task_mm2task_md.py` を実行
 3. Freeplaneの `.mm` を選択
 4. 同じフォルダへ `.md` が生成されます。
 
