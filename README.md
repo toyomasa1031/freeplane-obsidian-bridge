@@ -27,7 +27,9 @@ Obsidian Tasks
 - Freeplaneの属性をそのまま利用
 - task=yes を Obsidian Tasksへ変換
 - due を期限日へ変換
-- H1はファイル名
+- task以外のノードは通常の段落へ変換
+- macOS標準のファイル選択画面を使用
+- Obsidianの指定フォルダへ直接保存
 - シンプルなルールで運用可能
 
 ## Freeplane側の設定
@@ -64,11 +66,14 @@ TEXT = Python変換ツールを作成する
 1. Pythonを起動
 2. `task_mm2task_md.py` を実行
 3. Freeplaneの `.mm` を選択
-4. 同じフォルダへ `.md` が生成されます。
+4. Obsidianの `iVault/FreePlane` フォルダへ `.md` が生成されます。
+
+出力先は、スクリプト先頭の `OUTPUT_DIR` で変更できます。
 
 ## 動作環境
 
 - Python 3.x
+- macOS
 - Freeplane
 - Obsidian + Tasks Plugin
 
